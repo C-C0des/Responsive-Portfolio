@@ -242,8 +242,7 @@ input[type=submit]{
       line-height: 28px;
     }
     #mainsection {
-        max-width:60%;
-        height:700px;
+        max-width:600px;
         float:left;
         margin-bottom:400px;
         margin-left:50px;
@@ -264,22 +263,14 @@ input[type=submit]{
          width: 200px;
          margin-bottom: 16px;
      }
-    
-      label, input[type=text], input[type=email], textarea {
-          display:block;
+     /* Need to figure out how to stretch contact page, so it's same size as port and about*/
+      form{
           width:100%;
       }
     
-       #message{
-        height:100px;
+      .expandform{
+          width:60%;
       }
-
-      input[type=submit]{
-    
-        width:90px;
-        height:40px;
-        font-size:18px;   
-    }
     
   }
 

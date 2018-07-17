@@ -231,37 +231,32 @@ input[type=submit]{
 
 /* MEDIA QUERIES */
 
-/* 980 width */
+/* 980 */
 
-@media all and (max-width :980px)
+@media screen and (max-width: 980px) {
+    body {
+      font-size: 16px;
+    }
+    p {
+      margin-bottom: 0px;
+      line-height: 28px;
+    }
+    #mainsection {
+        max-width: 700px;
+        height:500px;
+        float:left;
+        margin-bottom:400px;
+        margin-left:50px;
+      }
 
-{
-    .wrap {
-        width: 980px;
+      #logo{
+          margin-left:50px;
+      }
+   
+      .bio-image {
+         float:left;
+         width: 200px;
+         margin-bottom: 16px;
     }
     
-    #namelogo{
-        margin-left:80px;
-    }
-
-    nav ul{
-        padding-right:80px;
-    }
-
-    #bio-image{
-        margin-left:100px;
-    }
-
-    p{
-        margin-top:20px;
-        display:inline-block;
-        word-wrap:break-word;
-    }
-
-    #maincontent{
-        width:470px;
-        margin-bottom:30px;
-    }
-
-}
-
+  }

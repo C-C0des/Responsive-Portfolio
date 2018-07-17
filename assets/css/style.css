@@ -194,16 +194,13 @@ footer {
   }
 
   
-  
 
 /*CONTACT*/
-
 
 label, input[type=text], input[type=email], textarea {
     display:block;
     width:100%;
 }
-
 
 input[type =text], input[type=email], input[type=textarea]{
     border:1px solid #dddddd;
@@ -212,11 +209,9 @@ input[type =text], input[type=email], input[type=textarea]{
     padding:0 5px;
 }
 
-
 #message{
     height:200px;
 }
-
 
 input[type=submit]{
     text-decoration: none;
@@ -226,7 +221,6 @@ input[type=submit]{
     height:40px;
     font-size:18px;   
 }
-
 
 
 /* MEDIA QUERIES */
@@ -268,23 +262,33 @@ input[type=submit]{
           width:100%;
       }
     
-      .expandform{
-          width:60%;
-      }
     
   }
 
+  /*968*/
+
   @media screen and (max-width:768) {
-    html,
-    body {
-      height: 100%;
-      width: 100%;
-    }
   
+
+    
+      .main-section {
+          max-width: 100%;
+          float:none;
+      }  
+    
+      
 
   }
 
   @media screen and (max-width:640){
+
+    #logo{
+        width:100%;
+    }
+
+    header{
+        position:static;
+    }
 
   }
 

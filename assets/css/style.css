@@ -14,14 +14,14 @@ body {
 /*ALIGNMENT*/
 
   .container{
+      width:100%;
       max-width:960px;
       margin:0 auto;
-      width:100%;
       clear:both;
   }
   
 /* NAVIGATION*/
-header {
+#masthead {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
@@ -68,6 +68,7 @@ header {
 /* MAIN SECTION */
 
 #mainsection {
+    max-width:960px;
     margin-top:50px;
     margin-bottom:60px;
     background: #ffffff;
@@ -226,8 +227,8 @@ input[type=submit]{
 /* MEDIA QUERIES */
 
 /* 980 */
-
-@media screen and (max-width: 980px) {
+/* 
+@media screen and (min-width: 980px) {
     body {
       font-size: 16px;
     }
@@ -236,7 +237,7 @@ input[type=submit]{
       line-height: 28px;
     }
     #mainsection {
-        max-width:600px;
+        width:600px;
         float:left;
         margin-bottom:400px;
         margin-left:50px;
@@ -257,38 +258,31 @@ input[type=submit]{
          width: 200px;
          margin-bottom: 16px;
      }
-     /* Need to figure out how to stretch contact page, so it's same size as port and about*/
-      form{
+     Need to figure out how to stretch contact page, so it's same size as port and about*/
+      /* form{
           width:100%;
       }
     
     
-  }
+  } */
 
   /*968*/
 
   @media screen and (max-width:768) {
-  
 
-    
-      .main-section {
-          max-width: 100%;
-          float:none;
-      }  
-    
-      
-
-  }
-
-  @media screen and (max-width:640){
-
-    #logo{
-        width:100%;
+    masthead{
+        width:70%;
+        width:700px;
+    }
+   
+    .container{
+        max-width: 70%;
     }
 
-    header{
-        position:static;
+    #mainsection{
+        width:70%;
     }
+    
 
   }
 

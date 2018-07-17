@@ -242,10 +242,10 @@ input[type=submit]{
       line-height: 28px;
     }
     #mainsection {
-        max-width: 700px;
-        height:500px;
+        max-width: 980px;
+        height:800px;
         float:left;
-        margin-bottom:400px;
+        margin-bottom:500px;
         margin-left:50px;
       }
 
@@ -257,6 +257,22 @@ input[type=submit]{
          float:left;
          width: 200px;
          margin-bottom: 16px;
+     }
+    
+      label, input[type=text], input[type=email], textarea {
+          display:block;
+          width:500px;
+      }
+    
+       #message{
+        height:200px;
+        margin-bottom:0 none;
+      }
+
+      input[type=submit]{
+
+        font-size:15px;   
     }
     
   }
+

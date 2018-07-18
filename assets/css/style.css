@@ -157,28 +157,32 @@ footer {
     width: 100%;
     padding-top:10px;
   }
+
   input[type=text],
   input[type=email],
   textarea {
+    font-size: 14px;
+    border: 1px solid #dddddd;
     height: 35px;
     padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
   }
+
   textarea {
     height: 200px;
   }
+
   input[type=submit] {
     padding: 10px 30px;
-    font-size: 18px;
-    color: #fff;
+    font-size: 16px;
+    color: #ffffff;
     background: #4aaaa5;
     border: 0 none;
   }
   
-  /* Media Quieries 
-  // 980px
-  */
+  /* Media Query*/
+
+  /*980*/
+
   @media screen and (max-width: 980px) {
 
     .bio-image {
@@ -191,20 +195,21 @@ footer {
         margin-left: 10%;
       }
 
-    #logo {
+     #logo {
       margin-left: 10%;
-    }
+     }
   
-    nav {
+     nav {
       margin-right: 10%;
-    }
+     }
 
-    .port {
+     .port {
       width: 100%;
-    }
-  }
+     }
+   }
   
   /* 768px */
+
   @media screen and (max-width: 768px) {
     #logo {
       margin-left: 2%;
@@ -237,12 +242,14 @@ footer {
     }
   
     .port {
-      width: 47%;
+      width: 50%;
     }
   }
   
   /* 640px */
+
   @media screen and (max-width: 640px) {
+    
     header {
       position: static;
     }

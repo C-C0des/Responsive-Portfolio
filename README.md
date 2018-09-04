@@ -3,7 +3,7 @@
 ## Week 2 - Assignment: Mobile Responsive Portfolio
 Enhance your professional portfolio site with a mobile-responsive layout.
 
-## Screen Size
+## Screen Sizes
 * lg - 980px
 * md - 768px 
 * sm - 640px

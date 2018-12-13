@@ -9,6 +9,4 @@ Enhance your professional portfolio site with a mobile-responsive layout.
 * sm - 640px
 
 ## Deployment
-https://christinecodes.github.io/Responsive-Portfolio/index.html
-
-
+https://c-c0des.github.io/Responsive-Portfolio/portfolio.html
